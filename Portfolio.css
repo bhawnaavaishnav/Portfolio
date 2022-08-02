@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  /* background-color: rgb(24, 21, 21); */
+  padding: 15px 3px;
+  top: 0%;
+  width: 100%;
+}
+
+.navbar a {
+  overflow: auto;
+  color: rgb(239, 241, 239);
+  padding: 1px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04aa04;
+  color: white;
+}
+
+.download {
+  background-color: rgb(14, 13, 13);
+  color: rgb(247, 243, 243);
+}
+
+.option {
+  display: flex;
+  color: black;
+  margin-left: auto;
+  background-color: rgb(244, 245, 250);
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+  background-color: rgb(239 241 239);
+  margin-left: auto;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 5px;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.aco {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(252, 212, 252);
+  padding-left: 35px;
+}
+
+.aco h1{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.accounts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.accounts a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.summary{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border-top: medium black solid;
+  border-bottom: medium black solid;
+  padding: 20px 10px;
+  background-color: rgb(236, 182, 182);
+  text-align: center;
+  font-size: 50px
+}
+
+.summary p{
+    font-size: 25px;
+    color: rgb(0, 0, 139);;
+}
+
+.summary h1 {
+  margin: 0px;
+  margin-top: 55px;
+  font-size: 60px;
+  color: rgb(0, 0, 139);;
+}
+
+section {
+  /* display: flex;
+  flex-direction: column; */
+  margin: 0px;
+}
+
+p .hobbies {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+h4 {
+  display: flex;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aco {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+  }
+}
+ 
+@media only screen and (max-width: 600px) {
+  .summary h1 {
+    font-size: 40px;
+    margin-top: 52px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .summary p {
+    font-size: 15px;
+  }
+}
